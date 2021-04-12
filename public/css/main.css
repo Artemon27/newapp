@@ -1,0 +1,72 @@
+body{
+    padding-top: 10px;
+    width:1000px;
+    margin: auto;
+    background-color: #deefff;
+    font-size: 14pt;
+    font-family: verdana;
+}
+input{
+    background-color: #f1fdff;
+}
+select{
+    background-color: #f1fdff;
+    border-radius: 3px
+}
+.create-container{
+    width:700px;
+    margin: auto;
+}
+
+.error , .success{
+    font-size:16pt;
+    text-align: center;
+    margin-top: 30px;
+}
+.error{
+    color:red;
+}
+.success{
+    color:green;
+}
+
+.edit-container{
+    margin-top: 100px;
+    width:800px;
+    margin: 50px auto 0px auto;
+}
+
+.clearfix:after{
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+.create-header div, .edit-header div{
+    float:left;
+    min-width: 50px;
+    padding-right:20px;
+}
+
+
+.create-form div, .edit-form div{
+    float:left;
+    min-width: 50px;
+    padding-right:20px;
+}
+
+.articul{
+    width:100px;
+}
+
+.name{
+    width:250px;
+}
+
+.status{
+    width:100px;
+}
+
+.button-edit, .button-create{
+    width:100px;
+}
